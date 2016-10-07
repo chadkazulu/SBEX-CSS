@@ -1,2 +1,12 @@
-/* Test */
+.columns-row-custom {
+overflow: hidden;
+}
 
+@media (min-width: 900px) {
+.one-third-custom {
+float: left;
+width: 30%;
+box-sizing: border-box;
+padding-right: 20px;
+}
+}
